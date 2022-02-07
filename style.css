@@ -1,1 +1,46 @@
-background-color:black;
+body{
+  width:100%;
+}.outer {
+    height: 30%;
+    width: 30%;
+    background:aquamarine;
+    /* border: 1px solid #888; */
+    transition: width 1s;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 10%;
+    text-align: center;
+    
+    
+    border-radius: 10px;
+  }
+  .outer:hover {
+    background: yellowgreen;
+    box-shadow: 4px 4px 4px #888;
+    width: 40%;
+  }
+  .anim{
+    display: flex;
+    justify-content:space-around;
+    height:40%;
+  }
+/* .cover{
+  
+  object-fit: contain;
+} */
+#feature1{
+  text-align: center;
+  padding:20%;
+}
+#feature2{
+  text-align: center;
+  padding:20%;
+}
+.title{
+  margin-top: 10%;
+  
+}
+/* .picture{
+  text-align: center;
+  
+} */
